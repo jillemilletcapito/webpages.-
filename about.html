@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables List</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: pink;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .container h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .container p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #777;
+        }
+
+        .highlight {
+            color: #d81b60;
+            font-weight: bold;
+        }
+
+        /* Centering and Enlarging the Image */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px; /* Makes the image larger */
+            border-radius: 10px;
+        }
+
+        /* Questions and Answers Section */
+        .faq-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .faq-section h2 {
+            font-size: 28px;
+            color: #d81b60;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .faq-item p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .navbar ul {
+                margin-top: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .image-container img {
+                max-width: 90%; /* Adjust size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Vegetables</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+            <div class="container">
+        <div class="faq-section">
+            <h2>Vegetables List</h2>
+            <ul>
+                <li><a href="vegetable1.html">🥕 Carrot</a></li>
+                <li><a href="vegetable2.html">🌿 Radish</a></li>
+                <li><a href="vegetable3.html">🥦 Broccoli</a></li>
+                <li><a href="vegetable4.html">🍆 Eggplants</a></li>
+                <li><a href="vegetable5.html">🥔 Potato</a></li>
+            </ul>
+        </div>
+
+        <div class="faq-section">
+            <h2>Questions and Answers about Vegetables</h2>
+            <div class="faq-item">
+                <h3>1. Why are vegetables important for health?</h3>
+                <p>Vegetables are rich in essential vitamins, minerals, and fiber. They help boost immunity, improve digestion, and reduce the risk of chronic diseases like heart disease and diabetes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>2. What is the most nutritious vegetable?</h3>
+                <p>Spinach is often considered one of the most nutritious vegetables because it is packed with vitamins A, C, K, iron, and calcium.</p>
+            </div>
+            <div class="faq-item">
+                <h3>3. Can vegetables help with weight loss?</h3>
+                <p>Yes, vegetables are low in calories and high in fiber, making them an excellent choice for weight loss. They help you feel full without adding extra calories.</p>
+            </div>
+            <div class="faq-item">
+                <h3>4. How many servings of vegetables should I eat daily?</h3>
+                <p>It is recommended to eat at least 5 servings of vegetables per day as part of a balanced diet.</p>
+     

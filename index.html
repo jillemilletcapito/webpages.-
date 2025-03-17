@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Vegetables</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: pink;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .container h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .container p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #777;
+        }
+
+        .highlight {
+            color: #d81b60;
+            font-weight: bold;
+        }
+
+        /* Centering and Enlarging the Image */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px; /* Makes the image larger */
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .navbar ul {
+                margin-top: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .image-container img {
+                max-width: 90%; /* Adjust size for smaller screens */
+            }
+            .container {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+            }
+
+          .vegetable-image {
+           width: 100%;
+           height: auto;
+           border-radius: 10px;
+           margin-bottom: 20px;
+           }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Vegetables</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Fresh Vegetables</h1>
+        <p class="highlight"><h2>"Fresh vegetables: Nature’s gift for a healthier life."</h2></p>
+        <p><strong>Vegetables are nutrient-rich edible plant parts, including leaves, roots, stems, and flowers, that provide essential vitamins, minerals, and fiber, supporting overall health and well-being.</strong></p>
+         <div class="container">
+  
+    <img src="vegetables.jpg" alt="vegetable" class="vegetable-image">
+    <p><strong>Vegetables</strong> <strong>are nutrient-rich edible parts of plants, including leaves, roots, stems, and flowers. They are packed with essential vitamins, minerals, antioxidants, and fiber, supporting overall health and well-being. Regular consumption of vegetables helps boost immunity, improve digestion, and reduce the risk of chronic diseases such as heart disease and diabetes. They come in a variety of colors, each offering unique health benefits—leafy greens for iron and calcium, orange vegetables for vitamin A, and cruciferous vegetables for cancer-fighting properties.</strong></p>
+</div>
+        </div>
+    </div>
+
+</body>
+</html>
